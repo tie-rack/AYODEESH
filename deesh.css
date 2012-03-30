@@ -1,7 +1,31 @@
 body {
-    font-family: sans-serif;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    background: url('fabric_plaid.png');
+    background-repeat: repeat;
 }
 
 h1 {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
+    font-size: 50pt;
+}
+
+#the-deesh {
+    width:10px;
+    height:10px;
+    transition:width 2s, height 2s;
+    -moz-transition:width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition:width 2s, height 2s, -webkit-transform 2s;
+    -o-transition:width 2s, height 2s, -o-transform 2s;
+    background-image: url('the-deesh.jpg');
+    margin: auto;
+}
+
+#the-deesh.spin {
+    width:350px;
+    height:525px;
+    transform:rotate(1440deg);
+    -moz-transform:rotate(1440deg);
+    -webkit-transform:rotate(1440deg);
+    -o-transform:rotate(1440deg);
 }
